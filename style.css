@@ -1,49 +1,50 @@
 body {
-   background-color: #4870f7;
+   background-color: rgb(179, 12, 12);;
     color: rgb(252, 252, 252);
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 .Ribbon{
-    background-color: whitesmoke;
     height: 30vh;
-    color: black;
-    font-size: 10px;
+    color: navajowhite;
+    font-size: 40px;
     text-align: center;
     border: 5px solid black;
-    background-image: url(trees.webp);
+    font-weight: bolder;
+    background-image: url(engine.webp);
     background-size: cover;
     background-position: center;
 }
-.header{
+.post-header{
+    margin-top: 1%;
     text-align: center;
-    color: white;
-    margin-top: 80px;
+    background-color: navajowhite;
+    border: 5px solid black;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: 400;
 }
-.begin{
-    margin: 40px;
-    color: blueviolet;
-    background-color: antiquewhite;
-    border: 4px solid burlywood;
-    padding: 60px;
-    width: 67vw; 
-    height: 29vh;
-    position: absolute;
-    top: 4200px;
-    left: 20px;
+.post1{
+    text-align: center;
+    background-color: navajowhite;
+    color: darkblue;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 15px;
 }
-.JR{
-    position: relative;
+.post2{
+    text-align: center;
+    background-color: navajowhite;
+    color: darkblue;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 15px;
 }
-.doto{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.place{
-    color: goldenrod;
-    height: 20vh;
-    
-    
+.post3{
+    text-align: center;
+    background-color: navajowhite;
+    color: darkblue;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 15px;
 }
