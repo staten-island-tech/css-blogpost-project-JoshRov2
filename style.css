@@ -1,22 +1,31 @@
 body {
    background-color: rgb(179, 12, 12);;
-    color: rgb(252, 252, 252);
+    color: darkblue(252, 252, 252);
     font-size: 30px;
     font-family: 'DM Sans', sans-serif;
 }
-.Ribbon{
-    height: 30vh;
-    color: navajowhite;
-    font-size: 40px;
+#insured{
+    position: absolute;
+    top: 225px;
+    left: 20px;
+}
+#news{
+    position: absolute;
+    top: 290px;
+    left: 1100px;
+}
+.header{
+    height: 50vh;
+    color: black;
+    font-size: 30px;
     text-align: center;
     border: 5px solid black;
     font-weight: bolder;
-    background-image: url(engine.webp);
+    background-image: url(classic.webp);
     background-size: cover;
     background-position: center;
 }
-.post-header{
-    margin-top: 1%;
+.nav{
     text-align: center;
     background-color: navajowhite;
     border: 5px solid black;
@@ -24,7 +33,12 @@ body {
     font-size: 30px;
     font-weight: 400;
 }
-.post1{
+.article{
+    margin-top: 170px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 120px;
+    padding: 50px 15px;
     text-align: center;
     background-color: navajowhite;
     color: darkblue;
@@ -32,19 +46,6 @@ body {
     border-radius: 10px;
     font-size: 15px;
 }
-.post2{
+.footer{
     text-align: center;
-    background-color: navajowhite;
-    color: darkblue;
-    border: 5px solid black;
-    border-radius: 10px;
-    font-size: 15px;
-}
-.post3{
-    text-align: center;
-    background-color: navajowhite;
-    color: darkblue;
-    border: 5px solid black;
-    border-radius: 10px;
-    font-size: 15px;
 }
